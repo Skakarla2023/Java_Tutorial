@@ -22,3 +22,19 @@
 - Java is an object oriented language which gives a clear structure to programs and allows code to be reused, lowering development costs
 - As Java is close to C++ and C#, it makes it easy for programmers to switch to Java or vice versa
 
+
+```java
+public class Main
+{
+	public static void main(String[] args)
+    {
+    	System.out.println("Hello World");
+    }
+}
+```
+
+
+- Every line of code that runs in java must be inside a class.
+- The main() method is like the entry point of the program execution.
+- The main method is declared static because you need not create any objects to access or run the main method.
+- The curly braces {} mark the beginning and ending of a code.
