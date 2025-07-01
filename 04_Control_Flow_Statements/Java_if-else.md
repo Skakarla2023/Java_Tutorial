@@ -75,3 +75,63 @@ public class Main
 }
 ```
 
+![image](https://github.com/user-attachments/assets/4311bb47-1c24-4967-ae85-c533a996af33)
+
+![image](https://github.com/user-attachments/assets/232bde7d-9ef7-43ea-a567-3852ef324e7e)
+
+- Instead of writing a long code like this:
+
+```java
+public class Main 
+{
+  public static void main(String[] args) 
+  {
+    int time = 20;
+    if (time < 18) 
+    {
+      System.out.println("Good day.");
+    } 
+    else 
+    {
+      System.out.println("Good evening.");
+    }  
+  }
+}
+```
+
+- You can simply write:
+
+```java
+public class Main
+{
+    public static void main(String[] args)
+    {
+        int time=5;
+        String result=(time>12)?"Good afternoon":"Good morning";
+        System.out.println(result);
+    }
+}
+```
+
+Output:
+
+```
+Good morning
+```
+
+### Real-life example
+
+```java
+public class Main {
+  public static void main(String[] args) {
+    int doorCode = 1337;
+
+    if (doorCode == 1337) {
+      System.out.println("Correct code. The door is now open.");
+    } else {
+      System.out.println("Wrong code. The door remains closed.");
+    }
+  }
+}
+```
+
