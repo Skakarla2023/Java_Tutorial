@@ -68,5 +68,112 @@ Output:
 ### Java Class Methods
 
 ```java
-
+class Main
+{
+    static void mymethod()
+    {
+        System.out.println("This is my method.");
+    }
+    
+    public static void main(String[] args)
+    {
+        mymethod();
+    }
+}
 ```
+
+Output:
+```
+This is my method.
+```
+
+### Static vs. Public
+
+You will often see Java programs that have either static or public attributes and methods.
+
+In the example above, we created a static method, which means that it can be accessed without creating an object of the class, unlike public, which can only be accessed by objects.
+
+```java
+class Myclass
+{
+	static void method1()
+    {
+    	System.out.println("Static methods can be called by using classname.");
+    }
+    
+    public void method2()
+    {
+    	System.out.println("Public methods are called by using objects.");
+    }
+    
+    public static void main(String[] args)
+    {
+    	method1();					//calling static method
+        
+        Myclass myobj=new Myclass();
+        myobj.method2();			//calling public method using object
+    }
+ }
+```
+
+Output:
+```
+Static methods can be called by using classname.
+Public methods are called by using objects.
+```
+
+![image](https://github.com/user-attachments/assets/c341899c-fc93-4fec-8be4-9a2b75c52250)
+
+![image](https://github.com/user-attachments/assets/1a4a63e2-843f-45f5-a842-fa666541e0a3)
+
+```java
+class Main
+{
+	int x;
+    
+    public Main()
+    {
+    	x=100;
+    }
+    
+    public static void main(String[] args)
+    {
+    	Main myobj=new Main();
+        System.out.println(myobj.x);
+    }
+}
+```
+
+Output:
+```
+100
+```
+
+![image](https://github.com/user-attachments/assets/326cec3c-053b-4160-afe4-0296aeca6eaa)
+
+```java
+public class Main 
+{
+  int x;
+
+  public Main(int y) 
+  {
+    x = y;
+  }
+
+  public static void main(String[] args) 
+  {
+    Main myObj = new Main(5);
+    System.out.println(myObj.x);
+  }
+  
+}
+```
+
+Output:
+```
+5
+```
+
+You can have as many parameters as you want.
+
