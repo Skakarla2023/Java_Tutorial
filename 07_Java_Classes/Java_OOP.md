@@ -177,3 +177,83 @@ Output:
 
 You can have as many parameters as you want.
 
+![image](https://github.com/user-attachments/assets/781aad46-db39-4039-9191-f313eae8aae0)
+
+- If a method or constructor has a parameter with the same name as a class variable, Java gets confused.
+
+- Use this.x to say: "I mean the class variable, not the parameter."
+
+- This is useful when you want to set class variables using parameters.
+
+![image](https://github.com/user-attachments/assets/6b0ee7d5-c321-4020-8555-dbc84935b8b7)
+
+```java
+package com.skakarla.java_Programs;
+
+public class This_Constructor 
+{	
+	int x;
+	
+	public This_Constructor(int x)
+	{
+		this.x=x;
+	}
+	
+	public static void main(String[] args)
+	{
+		This_Constructor obj=new This_Constructor(5);
+		System.out.println(obj.x);
+	}
+}
+```
+
+![image](https://github.com/user-attachments/assets/c79f9807-1d99-49fa-83bf-7e360b798798)
+
+```java
+package com.skakarla.java_Programs;
+
+public class More_Constructors 
+{
+	int modelYear;
+	String modelName;
+	
+	public More_Constructors(String modelName)
+	{
+		this(1990 ,modelName);
+	}
+
+	public More_Constructors(int modelYear,String modelName)
+	{
+		this.modelName=modelName;
+		this.modelYear=modelYear;
+	}
+	
+	public void print_info()
+	{
+		System.out.println(modelYear+" "+modelName);
+	}
+	
+	public static void main(String[] args)
+	{
+		More_Constructors car1=new More_Constructors("Mustang");
+		
+		More_Constructors car2=new More_Constructors(2011, "Hector");
+		
+		car1.print_info();
+		car2.print_info();
+	}
+	
+}
+```
+
+Output:
+```
+1990, Mustang
+2011, Hector
+```
+
+![image](https://github.com/user-attachments/assets/b0d8986a-3a7b-4d7c-b774-9191fe711977)
+
+
+
+![image](https://github.com/user-attachments/assets/b9c61b69-fe13-40b2-90ff-d277fc86f068)
