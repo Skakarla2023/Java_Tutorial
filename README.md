@@ -30,7 +30,7 @@ This package contains Java programs covering topics **from basic to advanced**, 
 ## 🛠 Requirements
 
 - JDK 8 or above
-- Any IDE or terminal (VS Code, IntelliJ, Eclipse, etc.)
+- Any IDE or terminal (VS Code, STS, IntelliJ, Eclipse, etc.)
 
 ## ▶️ How to Run
 
