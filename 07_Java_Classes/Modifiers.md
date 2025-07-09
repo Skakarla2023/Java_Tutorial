@@ -121,3 +121,69 @@ Age:10
 This is an abstract method
 ```
 
+## Java Encapsulation
+
+![image](https://github.com/user-attachments/assets/ef058f2b-27cd-4e73-9ff2-59bfdb08127a)
+
+![image](https://github.com/user-attachments/assets/138a08ac-9bac-42bf-b89e-aa16ce480928)
+
+![image](https://github.com/user-attachments/assets/e82cb22c-2f9e-460d-af21-88a9bf2e60f5)
+
+![image](https://github.com/user-attachments/assets/295882c5-5a2c-467c-ad8a-4c4d85a123e7)
+
+```java
+
+//Person.java
+
+package com.skakarla.java_Programs;
+
+public class Person 
+{
+	private int num;
+	private String name;
+	
+	public String getName()
+	{
+		return name;
+	}
+	
+	public int getNum()
+	{
+		return num;
+	}
+	
+	public String setName(String newName)
+	{
+		return this.name=newName;
+	}
+	
+	public int setNum(int newNum)
+	{
+		return this.num=newNum;
+	}
+}
+
+//MyClass.java
+
+package com.skakarla.java_Programs;
+
+public class MyClass 
+{
+	public static void main(String[] args) 
+	{
+
+		Person obj=new Person();
+		obj.setName("Balaji");
+		obj.setNum(100);
+		
+		System.out.println("Name:"+obj.getName());
+		System.out.println("Number:"+obj.getNum());
+		
+	}
+
+}
+
+```
+
+![image](https://github.com/user-attachments/assets/90ceca79-4f77-4c3a-970e-ba809c893f33)
+
