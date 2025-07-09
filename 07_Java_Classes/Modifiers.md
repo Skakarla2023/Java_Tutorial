@@ -72,4 +72,52 @@ This is a static method
 
 ![image](https://github.com/user-attachments/assets/0f61d764-55d4-4253-8e3c-cfe764eb1e40)
 
+```java
+
+// First.java
+
+package com.skakarla.java_Programs;
+
+abstract class First 
+{
+	public String name="John";
+	public int num=10;
+	abstract void mymethod();
+}
+
+//MyFirst.java
+
+package com.skakarla.java_Programs;
+
+public class MyFirst extends First
+{
+	void mymethod() 
+	{
+		System.out.println("This is an abstract method");		
+	}
+}
+
+//Second.java
+
+package com.skakarla.java_Programs;
+
+public class Second 
+{
+	public static void main(String[] args)
+	{
+		MyFirst obj=new MyFirst();
+		System.out.println("Name:"+obj.name);
+		System.out.println("Age:"+obj.num);
+		obj.mymethod();
+	}
+	
+}
+```
+
+Output:
+```
+Name:John
+Age:10
+This is an abstract method
+```
 
