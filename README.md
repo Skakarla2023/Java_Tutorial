@@ -1,3 +1,57 @@
+# Java Tutorial Programs 📚
+
+This package contains Java programs covering topics **from basic to advanced**, designed to help learners understand Java programming in a structured and hands-on way.
+
+## ✨ What's Included
+
+- 🔤 **Basic Concepts**
+  - Variables and Data Types
+  - Input/Output using `Scanner`
+  - Control Statements (if, loops)
+  - Methods and Object-Oriented Basics
+
+- 🧱 **Intermediate Concepts**
+  - Classes and Objects
+  - Constructors and Inheritance
+  - Exception Handling
+  - Arrays and Strings
+
+- 🚀 **Advanced Topics** *(coming soon)*
+  - Collections Framework
+  - File Handling
+  - Multi-threading
+  - Java 8+ Features (Lambdas, Streams)
+
+## 📁 Current Package
+
+- **Package Name:** `com.skakarla.java_Programs`
+- Includes beginner-friendly examples with clear code and comments
+
+## 🛠 Requirements
+
+- JDK 8 or above
+- Any IDE or terminal (VS Code, IntelliJ, Eclipse, etc.)
+
+## ▶️ How to Run
+
+1. Navigate to the Java file location
+2. Compile the program:  
+   `javac FileName.java`
+3. Run the program:  
+   `java FileName`
+
+---
+
+Feel free to explore, modify, and practice with these examples.  
+This project aims to support your **complete Java learning journey** — from your **first "Hello World"** to building **real-world applications**. 🚀
+
+Happy Coding! ☕
+
+
+
+
+
+
 # 📘 100 Easy LeetCode Problems (Grouped by Topic)
 
 Practicing these 100 handpicked easy-level problems to build your foundation in Data Structures & Algorithms.
