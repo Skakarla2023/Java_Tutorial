@@ -56,3 +56,48 @@ Satwika
 
 ![image](https://github.com/user-attachments/assets/31306b00-866f-40bb-92f2-c02240929f8c)
 
+![image](https://github.com/user-attachments/assets/f73c4d7d-ac2f-431e-a2a4-d01d1828a86c)
+
+```java
+
+// Car.java
+package com.skakarla.java_Programs;
+
+public class Car 
+{
+	
+	//declaring the attribute protected so that the child class can access it.
+	protected String carname="Mahindra";
+
+	public void mycar()
+	{
+		System.out.println("This is my car");
+	}
+
+}
+
+//Mahindra.java
+
+package com.skakarla.java_Programs;
+
+public class Mahindra extends Car
+{
+	public static void main(String[] args)
+	{
+		Mahindra obj=new Mahindra();
+		System.out.println(obj.carname);
+		obj.mycar();
+	}
+}
+```
+
+Output:
+```
+Mahindra
+This is my car
+```
+
+![image](https://github.com/user-attachments/assets/a9fde929-595d-4663-a6d3-923875025a6f)
+
+![image](https://github.com/user-attachments/assets/28adafb8-cdb7-435e-907e-1770b6220158)
+
