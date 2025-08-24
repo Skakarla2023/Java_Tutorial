@@ -87,15 +87,17 @@ class Main {
 
   - Enums: Special classes representing a group of constants.
 
-  ```Java
+```Java
     enum Day {
         MONDAY, TUESDAY
     }
 ```
 
+
 ![image](https://github.com/user-attachments/assets/2c246fbe-fbc7-4d98-a287-eda9d57292e5)
 
 ![image](https://github.com/user-attachments/assets/4f0801df-2877-44a8-bec0-71a1ecc3bcc1)
+
 
 ```java
 class Main
